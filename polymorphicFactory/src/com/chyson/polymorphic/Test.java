@@ -8,7 +8,7 @@ package com.chyson.polymorphic;
  */
 public class Test {
     public static void main(String[] args){
-        String data="export file";
+        String data="export file by chyson";
         ExportFactory exportFactory=new ExportHtmlFactory();
         ExportFile financial = exportFactory.factory("standard");
         financial.export(data);
